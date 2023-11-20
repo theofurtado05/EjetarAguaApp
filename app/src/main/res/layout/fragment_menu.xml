@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Menu">
+
+    <!-- Conteúdo principal do fragment -->
+
+    <!-- Barra de navegação -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="#FFFFFF"
+        android:elevation="0dp">
+
+    <!-- Botão "Início" -->
+        <Button
+            android:id="@+id/btInicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Início"
+            android:backgroundTint="@color/PrimaryColor"
+            app:cornerRadius="0sp" />
+
+    <!-- Botão "Diagnóstico" -->
+        <Button
+            android:id="@+id/btDiagnostico"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Diagnóstico"
+            android:backgroundTint="@color/PrimaryColor"
+            app:cornerRadius="0sp" />
+
+    </LinearLayout>
+
+    </FrameLayout>
